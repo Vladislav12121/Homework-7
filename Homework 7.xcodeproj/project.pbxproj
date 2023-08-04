@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6502A8272A7D39020001D983 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502A8262A7D39020001D983 /* HomeViewController.swift */; };
+		6502A82B2A7D396C0001D983 /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502A82A2A7D396C0001D983 /* BioViewController.swift */; };
+		6502A8302A7D3F490001D983 /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502A82F2A7D3F490001D983 /* ModelUser.swift */; };
+		6502A8342A7D47750001D983 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502A8332A7D47750001D983 /* UserViewController.swift */; };
+		6502A83C2A7D53630001D983 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502A83B2A7D53630001D983 /* TabBarViewController.swift */; };
 		65C1D5CD2A7D35580033833A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C1D5CC2A7D35580033833A /* AppDelegate.swift */; };
 		65C1D5CF2A7D35580033833A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C1D5CE2A7D35580033833A /* SceneDelegate.swift */; };
-		65C1D5D12A7D35580033833A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C1D5D02A7D35580033833A /* ViewController.swift */; };
+		65C1D5D12A7D35580033833A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C1D5D02A7D35580033833A /* LoginViewController.swift */; };
 		65C1D5D42A7D35580033833A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C1D5D22A7D35580033833A /* Main.storyboard */; };
 		65C1D5D62A7D35590033833A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C1D5D52A7D35590033833A /* Assets.xcassets */; };
 		65C1D5D92A7D35590033833A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C1D5D72A7D35590033833A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6502A8262A7D39020001D983 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6502A82A2A7D396C0001D983 /* BioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
+		6502A82F2A7D3F490001D983 /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
+		6502A8332A7D47750001D983 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		6502A83B2A7D53630001D983 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		65C1D5C92A7D35580033833A /* Homework 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C1D5CC2A7D35580033833A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65C1D5CE2A7D35580033833A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65C1D5D02A7D35580033833A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65C1D5D02A7D35580033833A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		65C1D5D32A7D35580033833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65C1D5D52A7D35590033833A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C1D5D82A7D35590033833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6502A82E2A7D3F250001D983 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6502A82F2A7D3F490001D983 /* ModelUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		65C1D5C02A7D35580033833A = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +74,44 @@
 		65C1D5CB2A7D35580033833A /* Homework 7 */ = {
 			isa = PBXGroup;
 			children = (
-				65C1D5CC2A7D35580033833A /* AppDelegate.swift */,
-				65C1D5CE2A7D35580033833A /* SceneDelegate.swift */,
-				65C1D5D02A7D35580033833A /* ViewController.swift */,
-				65C1D5D22A7D35580033833A /* Main.storyboard */,
+				65C1D5E02A7D356D0033833A /* ViewControllers */,
+				65C1D5E12A7D358E0033833A /* App */,
+				65C1D5E22A7D35AA0033833A /* Storyboards */,
 				65C1D5D52A7D35590033833A /* Assets.xcassets */,
-				65C1D5D72A7D35590033833A /* LaunchScreen.storyboard */,
-				65C1D5DA2A7D35590033833A /* Info.plist */,
+				6502A82E2A7D3F250001D983 /* Models */,
 			);
 			path = "Homework 7";
+			sourceTree = "<group>";
+		};
+		65C1D5E02A7D356D0033833A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				65C1D5D02A7D35580033833A /* LoginViewController.swift */,
+				6502A8262A7D39020001D983 /* HomeViewController.swift */,
+				6502A82A2A7D396C0001D983 /* BioViewController.swift */,
+				6502A8332A7D47750001D983 /* UserViewController.swift */,
+				6502A83B2A7D53630001D983 /* TabBarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		65C1D5E12A7D358E0033833A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				65C1D5CE2A7D35580033833A /* SceneDelegate.swift */,
+				65C1D5CC2A7D35580033833A /* AppDelegate.swift */,
+				65C1D5DA2A7D35590033833A /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		65C1D5E22A7D35AA0033833A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				65C1D5D22A7D35580033833A /* Main.storyboard */,
+				65C1D5D72A7D35590033833A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C1D5D12A7D35580033833A /* ViewController.swift in Sources */,
+				6502A83C2A7D53630001D983 /* TabBarViewController.swift in Sources */,
+				6502A8342A7D47750001D983 /* UserViewController.swift in Sources */,
+				65C1D5D12A7D35580033833A /* LoginViewController.swift in Sources */,
 				65C1D5CD2A7D35580033833A /* AppDelegate.swift in Sources */,
+				6502A8302A7D3F490001D983 /* ModelUser.swift in Sources */,
 				65C1D5CF2A7D35580033833A /* SceneDelegate.swift in Sources */,
+				6502A8272A7D39020001D983 /* HomeViewController.swift in Sources */,
+				6502A82B2A7D396C0001D983 /* BioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Homework 7/Info.plist";
+				INFOPLIST_FILE = "Homework 7/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,9 +353,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.icodeschool.Homework-7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +370,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Homework 7/Info.plist";
+				INFOPLIST_FILE = "Homework 7/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,9 +383,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.icodeschool.Homework-7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
